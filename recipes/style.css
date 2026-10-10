@@ -1,3 +1,35 @@
-.test {
-    color: red;
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-bar {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.308);
+    padding: 6px 12px;
+
+}
+a.home-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.home-link:hover {
+    color: aliceblue;
+}
+.content{
+    text-align: center;
+    margin: 12px;
+    padding: 12px 24px;
+}
+.content .content-items {
+    margin: 24px;
+}
+.content .content-img {
+    width: 405px;
+}
+.content, ul, ol {
+    list-style: none;
 }
